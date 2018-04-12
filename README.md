@@ -1,5 +1,6 @@
 # how-to-use-ssrClients-on-linux
-ssr
+（仅供学习使用）
+ssr我在学习Linux时的自我总结吧。
 今天很累，先开个头吧，刚把ssr在Linux配置好。2018.4.11
 
 
@@ -60,7 +61,7 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
 }
 然后保存退出
 
-5开启代理
+5 开启代理
 
 切换到/shadowsocksr/shadowsocks/ 目录
 cd shadowsocksr/shadowsocks/
@@ -71,4 +72,6 @@ cd shadowsocksr/shadowsocks/
 python local.py -c/etc/shadowsocks.json -d start
 
 ![点击此处查看图片](https://github.com/MRshiwenqiang/how-to-use-ssr-on-linux/raw/master/image/2.png)
+
+
 看到这个就是成功了。
