@@ -27,4 +27,4 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
 （我的是安装在如图的位置）
 
 
-！[image1](https://github.com/how-to-use-ssr-on-linux/image/1.png)
+！[image1](https://github.com/MRshiwenqiang/how-to-use-ssr-on-linux/raw/master/image/1.png)
