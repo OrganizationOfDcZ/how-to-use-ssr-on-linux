@@ -26,4 +26,5 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
 命令执行完毕后会在当前目录(/home/username)新建一个shadowsocksr目录。
 （我的是安装在如图的位置）
 
-https://github.com/MRshiwenqiang/how-to-use-ssr-on-linux/blob/master/2018-04-12%2013-38-05%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png
+
+！[image1](https://github.com/how-to-use-ssr-on-linux/image/1.png)
