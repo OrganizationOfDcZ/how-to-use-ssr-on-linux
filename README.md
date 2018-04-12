@@ -34,13 +34,14 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
 在shadowsocks目录里有一个config.json文件，将其拷贝到/etc下，如果没有
 也可以自己建立一个sudo gedit /etc/shadowsocks.json
 然后进行编辑  下面是编辑的内容，按照自己搭建的服务写
+
+
 {
     "server": "0.0.0.0",
     "server_ipv6": "::",
     "server_port": 8388,
     "local_address": "127.0.0.1",
     "local_port": 1080,
-
     "password": "m",
     "method": "aes-128-ctr",
     "protocol": "auth_aes128_md5",
@@ -49,7 +50,6 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
     "obfs_param": "",
     "speed_limit_per_con": 0,
     "speed_limit_per_user": 0,
-
     "additional_ports" : {}, // only works under multi-user mode
     "additional_ports_only" : false, // only works under multi-user mode
     "timeout": 120,
@@ -59,6 +59,10 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
     "redirect": "",
     "fast_open": false
 }
+
+
+
+
 然后保存退出
 
 5 开启代理
