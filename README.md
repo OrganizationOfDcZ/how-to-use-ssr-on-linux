@@ -21,7 +21,7 @@ apt-get install git
 3.获取源代码
 
 进入你想放文件的目录 ，此处以用户文件夹为例
-cd
+cd ~
 git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
 
 命令执行完毕后会在当前目录(/home/username)新建一个shadowsocksr目录。
@@ -31,8 +31,7 @@ git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git
 ![点击此处查看图片](https://github.com/MRshiwenqiang/how-to-use-ssr-on-linux/raw/master/image/1.png)
 
 4.建立配置文件（非常重要的一步)
-在shadowsocks目录里有一个config.json文件，将其拷贝到/etc下，如果没有
-也可以自己建立一个sudo gedit /etc/shadowsocks.json
+在shadowsocks目录里有一个config.json文件，将其拷贝到/etc下
 然后进行编辑  下面是编辑的内容，按照自己搭建的服务写
 
 
@@ -73,7 +72,7 @@ cd shadowsocksr/shadowsocks/
 
 绿色的就是可执行的python文件，如果没看见你的目录就错了，然后运行：
 
-python local.py -c/etc/shadowsocks.json -d start
+python local.py -c/etc/config.json -d start
 
 ![点击此处查看图片](https://github.com/MRshiwenqiang/how-to-use-ssr-on-linux/raw/master/image/2.png)
 
